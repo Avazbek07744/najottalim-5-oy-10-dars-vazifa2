@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background: url(../img/lambo-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+    color: #fff;
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    #startCounter{
+        background: green;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: none;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    #stopCounter{
+        background: red;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: none;
+    }
+
+    #counter{
+        font-size: 80px;
+    }
+}
